@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatva Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a class="site-logo" title="logo" href="#"><img src="images/site-logo.svg" alt="Tatvasoft" /></a>
+        </div>
+        <div class="header-btn">
+
+            <button class="login">Login</button>
+            <p class="pipe">|</p>
+            <button class="register">Register</button>
+
+            <button class="cart">
+                <ul>
+                    <li class="img"><a title="Cart" href="#"><img src="images/cart.svg" alt="cart" /><span>0</span></a>
+                    </li>
+                    <li class="text">
+                        <p>Cart</p>
+                    </li>
+                </ul>
+            </button>
+        </div>
+    </div>
+    <!-- search -->
+    <div id="second">
+
+        <div class="search">
+
+            <input type="text" name="search" id="search" placeholder="What you are looking for..">
+            <button class="search-btn"><em><img src="images/search.svg" alt="search" /></em>Search</button>
+            <button class="cancel-btn">Cancel</button>
+        </div>
+    </div>
+    <div class="page-title">
+        <p class="product-listing">
+           Edit Product
+        </p>
+    </div>
+
+    <section>
+        <div class="edit-product-form">
+            <div class="wraper">
+                <div class="f-l-name">
+                    <div class="fname">
+                        <label for="fname">First Name *</label><br>
+                        <input type="text" class="form-content1" name="Fname" id="f-name">
+                    </div>
+                    <span> </span>
+                    <div class="lname">
+                        <label for="lname">Last Name *</label><br>
+                        <input type="text" class="form-content1" name="lname" id="l-name">
+                    </div>
+                </div>
+                <div class="sbc-disc">
+                    <div class="catagory">
+                        <label for="catagory">Shop By Catagory</label><br>
+                        <input type="text" class="form-content1" name="sbc" id="shop-by-catagory">
+                    </div>
+                    <span> </span>
+                    <div class="discrption">
+                        <label for="discrption">discrption</label><br>
+                        <input type="text" class="form-content1" name="discrption" id="discrption">
+                    </div>
+                </div>
+                <div class="upload-file">
+                    <input class="upload-btn" type="button" value="Upload">
+                    <input type="text" name="file name" id="file-name" placeholder="No file chosen">
+                </div>
+            </div>
+            <div class="save-cancel-btn">
+                <input class="btn-save" type="button" value="Save">
+                <input class="btn-cancel" type="button" value="Cancel">
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footer-logo">
+            <a class="logo2" href="#"><img src="images/site-logo.svg" alt="Tatvasoft" /></a>
+        </div>
+        <div class="container">
+            <p class="copyright-text">
+                © 2022 Tatvasoft.com. All rights reserved.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
